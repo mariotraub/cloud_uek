@@ -8,3 +8,4 @@ docker run -p 8081:8080 nginx-2
 
 # Im 2. Container läuft nginx auf dem Port 8080, statt auf dem Port 80,
 # deshalb muss ich das im Port Mapping (-p Flag) anpassen.
+# Der zweite Container ist unprivileged, das heisst er wird als nicht root ausgeführt
