@@ -40,6 +40,12 @@ Cloud-Services sind Anwendungen und Infrastruktur-Ressourcen im Internet.
 - Mailserver
 - Intranet
 - Datenbank
+- Atlassian Programme
+- GitLab
+- Mattermost
+- Jenkins
+- Docker Swarm
+- Superset
 ## Wie werden technologische Beiträge in der Cloud geteilt bzw. zur Verfügung gestellt?
 - Cloud Speicher
 - Webserver
