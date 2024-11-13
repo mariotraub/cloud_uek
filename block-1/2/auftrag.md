@@ -24,8 +24,13 @@ Um Komplexe Netzwerke darzustellen hat man in Diagrammen früher eine Wolke benu
 - Public Cloud
 - Private Cloud
 - Hybrid Cloud
+- Community Cloud
 ## Was sind Cloud Service Modelle?
-Cloud-Services sind Anwendungen und Infrastruktur-Ressourcen im Internet.
+- On Premise
+- Infrastructure as a Service (IaaS)
+- Platform as a Service (PaaS)
+- Software as a Service (SaaS)
+- (Function as a Service (FaaS))
 ## Weshalb soll ich Dienste aus der Cloud beziehen? Was sind die Vorteile?
 - Billiger als Self-Hosting
 - Skalierbar
