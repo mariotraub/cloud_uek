@@ -1,8 +1,10 @@
 # Normaler nginx Container
-docker run -p 8081:80 nginx:latest
+docker build -t nginx-1 ./1
+docker run -p 8081:80 nginx-1
 
 # Unprivileged nginx Container
-docker run -p 8081:8080 nginxinc/nginx-unprivileged:latest
+docker build -t nginx-2 ./2
+docker run -p 8081:8080 nginx-2
 
 # Im 2. Container läuft nginx auf dem Port 8080, statt auf dem Port 80,
 # deshalb muss ich das im Port Mapping (-p Flag) anpassen.
