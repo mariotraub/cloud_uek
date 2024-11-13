@@ -27,7 +27,7 @@
 | OS / Kernel    | Ganzes OS  | braucht Linux Kernel |
 
 ### Können virtuelle Server immer durch Container ersetzt werden?
-- Nein, bei low level Sachen nicht
+- Nein, bei low level Sachen nicht oder wenn es sicher sein soll (Kernel nicht sharen)
 
 ### Was ist unterschied zwischen Self-Managed und Fully Managed? Notieren Sie sich die wichtigsten Merkmale und diskutieren Sie die Ergebnisse in der Gruppe.
 - Wenn man den Container irgendwo hochlädt dann ist er von ihnen managed, also ist es nicht Self-Managed. Self-Managed wäre es wenn man selber die Container hostet.
