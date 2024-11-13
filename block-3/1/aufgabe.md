@@ -11,9 +11,11 @@
     - Abhängig vom OS des Hostes
 
 ### Welche Produkte kennen Sie im Zusammenhang mit virtuellen Servern und Container?
-- Docker Swarm
+- Docker (Compose)
 - Kubernetes
-- Hypervisors
+- VMWare
+- Virtuabox
+- KVM
 
 ### Wie unterscheiden sich die Technologien VM und Container in Bezug auf Bereitstellung, Speicherplatz, Portabilität, Effizienz und Betriebssystem (Kernel)?
 |                | VM         | Container            |
@@ -25,7 +27,7 @@
 | OS / Kernel    | Ganzes OS  | braucht Linux Kernel |
 
 ### Können virtuelle Server immer durch Container ersetzt werden?
-- Ja
+- Nein, bei low level Sachen nicht
 
 ### Was ist unterschied zwischen Self-Managed und Fully Managed? Notieren Sie sich die wichtigsten Merkmale und diskutieren Sie die Ergebnisse in der Gruppe.
 - Wenn man den Container irgendwo hochlädt dann ist er von ihnen managed, also ist es nicht Self-Managed. Self-Managed wäre es wenn man selber die Container hostet.
