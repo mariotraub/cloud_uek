@@ -56,7 +56,5 @@ USER root
 RUN chgrp -R 0 /srv/app && \
     chmod -R g=u /srv/app
 
-chmod 777 /.npm
-
 # Switch back to non-root user
 USER node
